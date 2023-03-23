@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Clock_Degree_Calculator
+namespace Hours_And_Minutes
 {
     internal class TimeModel
     {
