@@ -14,13 +14,13 @@ namespace Hours_And_Minutes
 
         private static float CalculateHourHandDegree(TimeModel time)
         {
-            float degreeOfHrPerMin = time.Minutes / 60;
-            float degree = (time.Hour + degreeOfHrPerMin) * degreeOfOneHr;
+            float degreeOfHrPerMin =(float)time.Minutes / 60;
+            float degree = ((float)time.Hour + degreeOfHrPerMin) * degreeOfOneHr;
             return degree;
         }
-        private static float CalculateMinHandDegree(float min)
+        private static float CalculateMinHandDegree(int min)
         {
-            var degree = min * degreeOfOneMinInHr;
+            var degree = (float)min * degreeOfOneMinInHr;
             return degree;
         }
 

@@ -13,7 +13,7 @@ namespace Hours_And_Minutes
             this.Hour = hour;
             this.Minutes = minutes; 
         }
-        public float Hour { get; set; }
-        public float Minutes { get; set; }
+        public int Hour { get; set; }
+        public int Minutes { get; set; }
     }
 }
