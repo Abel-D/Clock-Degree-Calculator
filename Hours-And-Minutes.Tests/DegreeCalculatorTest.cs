@@ -9,10 +9,6 @@ namespace Hours_And_Minutes.Hours_And_Minutes.Tests
     public class DegreeCalculatorTest
     {
        
-        public DegreeCalculatorTest()
-        {
-            
-        }
         [Fact]
         public void degreeCalculator_returns_correct_format()
         {
