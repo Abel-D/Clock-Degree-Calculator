@@ -1,12 +1,14 @@
-﻿using System;
+﻿using Moq;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Xunit;
 
 namespace Hours_And_Minutes
 {
-    internal class DegreeCalculator
+    public static class DegreeCalculator
     {
         static int halfDay = 360;
 
@@ -51,4 +53,5 @@ namespace Hours_And_Minutes
             return degree;
         }
     }
+  
 }

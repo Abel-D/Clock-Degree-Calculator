@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Hours_And_Minutes
 {
-    internal class TimeModel
+    public class TimeModel
     {
         public TimeModel(int hour,int minutes)
         {
