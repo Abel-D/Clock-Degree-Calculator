@@ -4,7 +4,7 @@
    and return the lesser degree between the hands.
 
 ## calculation Logic implementation
-
+   #### namespace Hours_And_Minutes
          static int halfDay = 360;
 
         // calculate the degree difference for each minute hand position in an hour
@@ -47,11 +47,9 @@
             }
             return degree;
         }
- ## Hours-And-Minutes.Tests
+ #### Hours_And_Minutes.Hours_And_Minutes.Tests
     This library is a xunit test project for the above application logic implementation. 
-         public class DegreeCalculatorTest
-         {
-       
+     
         [Fact]
         public void degreeCalculator_returns_correct_format()
         {
@@ -76,5 +74,5 @@
             //assert
             Assert.Equal(0, result);
         }
-    }   
+     
   
