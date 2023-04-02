@@ -1,7 +1,7 @@
 # Clock-Degree-Calculator
 ## Hours-And-Minutes
-This c# application is a simple degree calculator for minute and hour hand of an analogue clock.I accepts inputs hour and minutes from the user
-and return the lesser degree between the hands.
+   This c# application is a simple degree calculator for minute and hour hand of an analogue clock.I accepts inputs hour and minutes from the user
+   and return the lesser degree between the hands.
 
 ## calculation Logic implementation
 
@@ -47,8 +47,8 @@ and return the lesser degree between the hands.
             }
             return degree;
         }
-        ## Hours-And-Minutes.Tests
-        This library is a xunit test project for the above application logic implementation. 
+ ## Hours-And-Minutes.Tests
+    This library is a xunit test project for the above application logic implementation. 
          public class DegreeCalculatorTest
          {
        
