@@ -2,7 +2,7 @@
 ## Hours-And-Minutes
    This c# application is a simple degree calculator for minute and hour hand of an analogue clock.I accepts inputs hour and minutes from the user
    and return the lesser degree between the hands.
-
+![clock](https://github.com/Abel-D/Clock-Degree-Calculator/blob/master/img/clockHands.PNG)
 ## calculation Logic implementation
    #### namespace Hours_And_Minutes
          static int halfDay = 360;
